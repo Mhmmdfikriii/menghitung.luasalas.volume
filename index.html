@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Geometri</title>
+    <link rel="stylesheet" href="nomor4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Geometri</h1>
+        
+        <div class="form-group">
+            <h2>Tabung</h2>
+            <label for="radius-tabung">Jari-jari (r):</label>
+            <input type="number" id="radius-tabung" placeholder="Masukkan jari-jari">
+            <label for="height-tabung">Tinggi (h):</label>
+            <input type="number" id="height-tabung" placeholder="Masukkan tinggi">
+            <button onclick="hitungTabung()">Hitung</button>
+            <p id="hasil-tabung"></p>
+        </div>
+
+        <div class="form-group">
+            <h2>Bola</h2>
+            <label for="radius-bola">Jari-jari (r):</label>
+            <input type="number" id="radius-bola" placeholder="Masukkan jari-jari">
+            <button onclick="hitungBola()">Hitung</button>
+            <p id="hasil-bola"></p>
+        </div>
+
+        <div class="form-group">
+            <h2>Limas Segi Empat</h2>
+            <label for="side-limas">Sisi Alas (a):</label>
+            <input type="number" id="side-limas" placeholder="Masukkan sisi alas">
+            <label for="height-limas">Tinggi (h):</label>
+            <input type="number" id="height-limas" placeholder="Masukkan tinggi">
+            <button onclick="hitungLimas()">Hitung</button>
+            <p id="hasil-limas"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
